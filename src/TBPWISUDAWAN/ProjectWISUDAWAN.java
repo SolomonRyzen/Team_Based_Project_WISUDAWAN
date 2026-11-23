@@ -89,7 +89,7 @@ public class ProjectWISUDAWAN {
                                     admin = 4000;
                                 }
                                 else {
-                                    System.out.println("Maaf, Pilihan Bank Tidak Ada!!!!!");
+                                    System.out.println("MAAF PILIHAN BANK TIDAK ADA!!!!!");
                                 }
                                 
                             switch (pilihbank){
@@ -293,7 +293,6 @@ public class ProjectWISUDAWAN {
                                     }
                                     break;
                                 default : 
-                                    System.out.println("MAAF PILIHAN BANK TIDAK TERSEDIA!!!!");
                                     System.out.print("Ingin Melakukan Transaksi lagi ? [y/n] : ");
                                     lagi = input.readLine();
                                     if (lagi.equalsIgnoreCase("y")){
@@ -496,8 +495,7 @@ public class ProjectWISUDAWAN {
                                         }                                
                                         break;
                                     
-                                    default : 
-                                    System.out.println("MAAF PILIHAN E-WALLET TIDAK TERSEDIA!!!!");
+                                    default :                                  
                                     System.out.print("Ingin Melakukan Transaksi lagi ? [y/n] : ");
                                     lagi = input.readLine();
                                     if (lagi.equalsIgnoreCase("y")){
@@ -786,7 +784,6 @@ public class ProjectWISUDAWAN {
                                         break;
                                     
                                     default : 
-                                    System.out.println("MAAF PILIHAN GAME TIDAK TERSEDIA!!!!");
                                     System.out.print("Ingin Melakukan Transaksi lagi ? [y/n] : ");
                                     lagi = input.readLine();
                                     if (lagi.equalsIgnoreCase("y")){
@@ -801,7 +798,7 @@ public class ProjectWISUDAWAN {
                             }
                             
                         case 4 :
-                            //System.exit(0);
+                            System.exit(0);
                             break;
                          
                         default :
